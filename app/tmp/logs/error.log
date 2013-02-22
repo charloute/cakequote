@@ -1,0 +1,1022 @@
+2013-02-20 16:38:37 Error: [MissingActionException] Action UsersController::login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+)
+Request URL: /cakequote/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 16:59:15 Error: Fatal Error (4): syntax error, unexpected $end, expecting T_FUNCTION in [/Users/charlottevidaud/Desktop/cakequote/app/Model/User.php, line 68]
+2013-02-20 16:59:15 Error: [FatalErrorException] syntax error, unexpected $end, expecting T_FUNCTION
+Request URL: /cakequote/users/
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/charlott...', 68)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/charlott...', 68, Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/charlott...', 68, Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:03:52 Error: [MethodNotAllowedException] Method Not Allowed
+Request URL: /cakequote/users/delete/5
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/Controller/UsersController.php(115): CakeRequest->onlyAllow('post', 'delete')
+#1 [internal function]: UsersController->delete('5')
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#4 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#5 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#6 {main}
+2013-02-20 17:16:41 Error: Fatal Error (1): Call to a member function link() on a non-object in [/Users/charlottevidaud/Desktop/cakequote/app/View/Layouts/default.ctp, line 46]
+2013-02-20 17:16:41 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /cakequote/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/charlott...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/charlott...', 46, Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/charlott...', 46, Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:17:05 Error: Fatal Error (1): Call to a member function link() on a non-object in [/Users/charlottevidaud/Desktop/cakequote/app/View/Layouts/default.ctp, line 46]
+2013-02-20 17:17:05 Error: [FatalErrorException] Call to a member function link() on a non-object
+Request URL: /cakequote/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/Users/charlott...', 46)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/Users/charlott...', 46, Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/Users/charlott...', 46, Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-20 17:31:58 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 17:32:07 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 17:32:56 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 17:34:23 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-20 19:00:03 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 21:41:16 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 21:41:25 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-21 21:42:51 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp',
+)
+Request URL: /cakequote/groups
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 21:43:05 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp',
+)
+Request URL: /cakequote/groups
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 21:44:05 Error: [MissingActionException] Action UsersController::admin_login() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'admin_login',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-21 21:45:59 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Users/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Users/admin_login.ctp',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 21:47:23 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Users/admin_login.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Users/admin_login.ctp',
+)
+Request URL: /cakequote/admin/users/login
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 21:48:24 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 21:48:53 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 21:49:48 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp',
+)
+Request URL: /cakequote/groups
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-21 22:19:59 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-21 22:20:00 Error: [MissingControllerException] Controller class JsController could not be found.
+Exception Attributes: array (
+  'class' => 'JsController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 00:02:37 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/Users/charlottevidaud/Desktop/cakequote/app/View/Users/index.ctp, line 46]
+2013-02-22 00:02:37 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+Request URL: /cakequote/users
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/charlott...', 46)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/charlott...', 46, Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/charlott...', 46, Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-22 00:07:20 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:07:20 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:08:28 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:08:28 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:08:28 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:06 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:06 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:07 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:50 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:19:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:31:36 Error: [NotFoundException] Invalid user
+Request URL: /cakequote/users/view/css/bootstrap.css
+Stack Trace:
+#0 [internal function]: UsersController->view('css', 'bootstrap.css')
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 00:31:37 Error: [NotFoundException] Invalid user
+Request URL: /cakequote/users/view/js/bootstrap.js
+Stack Trace:
+#0 [internal function]: UsersController->view('js', 'bootstrap.js')
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 00:31:37 Error: [NotFoundException] Invalid user
+Request URL: /cakequote/users/view/js/bootstrap.js
+Stack Trace:
+#0 [internal function]: UsersController->view('js', 'bootstrap.js')
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(UsersController), Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 00:37:05 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:37:05 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:41:11 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:41:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:41:11 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:41:49 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:41:50 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:42:04 Error: [MissingActionException] Action QuotesController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuotesController',
+  'action' => 'css',
+)
+Request URL: /cakequote/quotes/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(QuotesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:42:04 Error: [MissingActionException] Action QuotesController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuotesController',
+  'action' => 'js',
+)
+Request URL: /cakequote/quotes/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(QuotesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:45:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:45:44 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:45:44 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:47:41 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:47:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:47:41 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:48:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:48:52 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:48:52 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:10 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:10 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:23 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:23 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:49:23 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:53:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:53:22 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:53:22 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:08 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:08 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:08 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:40 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:49 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:49 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:54:49 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:55:40 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:55:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 00:55:40 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:03:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/img/glyphicons-halflings-white.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 01:05:15 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/img/glyphicons-halflings-white.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 01:13:55 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:13:55 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:13:55 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:16:19 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:16:19 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:20:14 Error: [MissingActionException] Action UsersController::css() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'css',
+)
+Request URL: /cakequote/users/css/bootstrap.css
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:20:14 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:20:15 Error: [MissingActionException] Action UsersController::js() could not be found.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'js',
+)
+Request URL: /cakequote/users/js/bootstrap.js
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 01:48:27 Error: Fatal Error (4): syntax error, unexpected ')', expecting ',' or ';' in [/Users/charlottevidaud/Desktop/cakequote/app/View/Quotes/add.ctp, line 10]
+2013-02-22 01:48:27 Error: [FatalErrorException] syntax error, unexpected ')', expecting ',' or ';'
+Request URL: /cakequote/quotes/add
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Error/ErrorHandler.php(183): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/Users/charlott...', 10)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/Users/charlott...', 10, Array)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/Users/charlott...', 10, Array)
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2013-02-22 01:51:53 Error: [MissingViewException] View file "/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/Users/charlottevidaud/Desktop/cakequote/app/View/Groups/index.ctp',
+)
+Request URL: /cakequote/groups
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/View/View.php(467): View->_getViewFileName(NULL)
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Controller/Controller.php(947): View->render(NULL, NULL)
+#2 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#4 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2013-02-22 01:55:41 Error: [MissingActionException] Action GroupsController::add() could not be found.
+Exception Attributes: array (
+  'controller' => 'GroupsController',
+  'action' => 'add',
+)
+Request URL: /cakequote/groups/add
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GroupsController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2013-02-22 02:00:11 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 02:17:55 Error: [MissingControllerException] Controller class AdminController could not be found.
+Exception Attributes: array (
+  'class' => 'AdminController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 03:21:38 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/img/logo.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 03:21:39 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/img/logo.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 03:21:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/img/logo.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 03:21:52 Error: [MissingControllerException] Controller class ImgController could not be found.
+Exception Attributes: array (
+  'class' => 'ImgController',
+  'plugin' => NULL,
+)
+Request URL: /cakequote/admin/img/logo.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-02-22 03:34:10 Error: [MissingActionException] Action QuotesController::img() could not be found.
+Exception Attributes: array (
+  'controller' => 'QuotesController',
+  'action' => 'img',
+)
+Request URL: /cakequote/quotes/img/logo.png
+Stack Trace:
+#0 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/charlottevidaud/Desktop/cakequote/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(QuotesController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/charlottevidaud/Desktop/cakequote/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

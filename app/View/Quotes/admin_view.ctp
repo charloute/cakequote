@@ -1,46 +1,46 @@
+<script>
+$(document).ready(function(){
+    $('#myTab a').click(function (e) {
+    e.preventDefault();
+    $(this).tab('show');
+    })
+});
+</script>
+
 <div class="quotes view">
+
 <h2><?php  echo __('Quote'); ?></h2>
-	<dl>
-		<dt><?php echo __('Id'); ?></dt>
-		<dd>
-			<?php echo h($quote['Quote']['id']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Title'); ?></dt>
-		<dd>
-			<?php echo h($quote['Quote']['title']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Body'); ?></dt>
-		<dd>
-			<?php echo h($quote['Quote']['body']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('User'); ?></dt>
-		<dd>
-			<?php echo $this->Html->link($quote['User']['username'], array('controller' => 'users', 'action' => 'view', $quote['User']['id'])); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Created'); ?></dt>
-		<dd>
-			<?php echo h($quote['Quote']['created']); ?>
-			&nbsp;
-		</dd>
-		<dt><?php echo __('Updated'); ?></dt>
-		<dd>
-			<?php echo h($quote['Quote']['updated']); ?>
-			&nbsp;
-		</dd>
-	</dl>
-</div>
-<div class="actions">
-	<h3><?php echo __('Actions'); ?></h3>
-	<ul>
-		<li><?php echo $this->Html->link(__('Edit Quote'), array('action' => 'edit', $quote['Quote']['id'])); ?> </li>
-		<li><?php echo $this->Form->postLink(__('Delete Quote'), array('action' => 'delete', $quote['Quote']['id']), null, __('Are you sure you want to delete # %s?', $quote['Quote']['id'])); ?> </li>
-		<li><?php echo $this->Html->link(__('List Quotes'), array('action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New Quote'), array('action' => 'add')); ?> </li>
-		<li><?php echo $this->Html->link(__('List Users'), array('controller' => 'users', 'action' => 'index')); ?> </li>
-		<li><?php echo $this->Html->link(__('New User'), array('controller' => 'users', 'action' => 'add')); ?> </li>
+	
+	<ul class="nav nav-tabs" id="myTab">
+	
+		<li><a href="#id"><?php echo __('Id'); ?></a></li>
+		<li><a href="#title"><?php echo __('Title'); ?></a></li>
+		<li><a href="#body"><?php echo __('Body'); ?></a></li>
+		<li><a href="#user"><?php echo __('User'); ?></a></li>
+		<li><a href="#created"><?php echo __('Created'); ?></a></li>
+		<li><a href="#updated"><?php echo __('Updated'); ?></a></li>
 	</ul>
+		
+			
+			
+	<div class="tab-content">
+			<div class="tab-pane active" id="id"><?php echo h($quote['Quote']['id']); ?></div>
+			
+		
+			<div class="tab-pane" id="title"><?php echo h($quote['Quote']['title']); ?></div>
+			
+		
+			<div class="tab-pane" id="body"><?php echo h($quote['Quote']['body']); ?></div>
+			
+		
+			<div class="tab-pane" id="user"><?php echo $this->Html->link($quote['User']['username'], array('controller' => 'users', 'action' => 'view', $quote['User']['id'])); ?></div>
+			
+		
+			<div class="tab-pane" id="created"><?php echo h($quote['Quote']['created']); ?></div>
+			
+		
+			<div class="tab-pane" id="updated"><?php echo h($quote['Quote']['updated']); ?></div>
+			
+		
+	
 </div>
